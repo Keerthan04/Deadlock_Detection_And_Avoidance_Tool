@@ -1,0 +1,11 @@
+digraph RAG {
+  rankdir=LR;
+  node [shape=ellipse, fontsize=12, style=filled, fillcolor=white];
+  "P0";
+  "R3";
+  "P1";
+  "R2";
+  "R1";
+  "P2";
+  "P2" -> "R1";
+}
